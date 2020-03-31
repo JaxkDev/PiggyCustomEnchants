@@ -13,6 +13,7 @@ use DaPigGuy\PiggyCustomEnchants\commands\subcommands\InfoSubCommand;
 use DaPigGuy\PiggyCustomEnchants\commands\subcommands\ListSubCommand;
 use DaPigGuy\PiggyCustomEnchants\commands\subcommands\NBTSubCommand;
 use DaPigGuy\PiggyCustomEnchants\commands\subcommands\RemoveSubCommand;
+use DaPigGuy\PiggyCustomEnchants\commands\subcommands\RemoveSubCommandHITHERE;
 use DaPigGuy\PiggyCustomEnchants\PiggyCustomEnchants;
 use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\command\CommandSender;
@@ -60,5 +61,6 @@ class CustomEnchantsCommand extends BaseCommand
         $this->registerSubCommand(new ListSubCommand($this->plugin, "list", "Lists all registered custom enchants"));
         $this->registerSubCommand(new NBTSubCommand($this->plugin, "nbt", "Displays NBT tags of currently held item"));
         $this->registerSubCommand(new RemoveSubCommand($this->plugin, "remove", "Remove an enchantment from an item"));
+        $this->registErNothingLol();
     }
 }
