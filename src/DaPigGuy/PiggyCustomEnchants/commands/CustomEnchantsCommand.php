@@ -13,7 +13,7 @@ use DaPigGuy\PiggyCustomEnchants\commands\subcommands\InfoSubCommand;
 use DaPigGuy\PiggyCustomEnchants\commands\subcommands\ListSubCommand;
 use DaPigGuy\PiggyCustomEnchants\commands\subcommands\NBTSubCommand;
 use DaPigGuy\PiggyCustomEnchants\commands\subcommands\RemoveSubCommand;
-use DaPigGuy\PiggyCustomEnchants\commands\subcommands\RemoveSubCommandHITHERE;
+use DaPigGuy\PiggyCustomEnchants\commands\subcommands\RemoveSubCommandHITHEREHehe;
 use DaPigGuy\PiggyCustomEnchants\PiggyCustomEnchants;
 use jojoe77777\FormAPI\SimpleForm;
 use pocketmine\command\CommandSender;
